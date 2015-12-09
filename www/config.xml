@@ -2,18 +2,18 @@
     
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "cat.numancia.projecte_info_4t_MOBILEUI"
-        versionCode = "2" 
-        version     = "1.0.02" >
+        id          = "cat.numancia.roma_2016"
+        versionCode = "3" 
+        version     = "1.0.03" >
 	
 	<!-- versionCode is optional and Android only -->
 
 	<preference name="phonegap-version" value="cli-5.2.0" />
 
-    <name>Projecte 4t INFO 2015 2016</name>
+    <name>Agenda Roma 2016</name>
 
    <description>
-       Aplicació phonegap del salumnes de 4t info Curs 2015 2016 [MOBILEUI]
+       Aplicació phonegap dels alumnes de 4t INFO Curs 2015 2016 [ABC]
     </description>
 
     <author href="https://numancia.cat/intranet" email="sergi.curtu@numancia.cat">
