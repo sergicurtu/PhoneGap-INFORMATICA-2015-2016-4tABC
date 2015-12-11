@@ -45,12 +45,13 @@
 <jsv-modal-menu id="menu">
 	<jsv-list>
 		<ul>
-				<li>Diumenge</li>
-				<li>Dilluns</li>
-				<li>Dimarts</li>
-				<li>...</li>
-				<li onclick="$JSView.closeMenuModal('menu')">Tancar</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewB')">Diumenge (anada)</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewC')">Dilluns</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewD')">Dimarts</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewE')">Dimecres</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewF')">Dijous</li>
+				<li class="bgYellow" onClick="$JSView.goToView('viewG')">Divendres (tornada)</li>
+				<li class="bgYellow" onclick="$JSView.closeMenuModal('menu')">Tancar</li>
 		</ul>
 	</jsv-list>
 </jsv-modal-menu>
-
