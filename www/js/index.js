@@ -6,7 +6,7 @@ $(document).on('deviceready', function() {
        
       $("#nav_lateral").click(function(){
         
-            $(".button-collapse").sideNav("show").css("z-index", 1000000);;
+            $(".button-collapse").sideNav("show").css("z-index", 1000000);
       
       });
       
