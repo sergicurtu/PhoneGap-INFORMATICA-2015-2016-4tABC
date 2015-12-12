@@ -6,13 +6,13 @@ $(document).on('deviceready', function() {
       
       $("#nav_lateral").click(function(){
         
-            $('.button-collapse').sideNav('show');
+            $(".button-collapse").sideNav("show");
       
       });
       
       $(".dia_menu_clicat").click(function(){
         
-            var dia_clicat = $(this).attr('dia');
+            var dia_clicat = $(this).attr("dia");
             alert("Clicat el " + dia_clicat);
       
       });
