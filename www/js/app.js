@@ -1,18 +1,6 @@
 window.addEventListener('load', function() {
     
      $JSView.declareMenu({
-        /*
-        menu: {
-            url: '/menu',
-            template: 'views/menuLeft.html',
-            controller: 'menu'
-        },
-        */
-        menu: {
-            url: '/menu',
-            template: 'views/menuBottom.html',
-            controller: 'menu'
-        },
         
         viewMenuA: {
             url: '/viewMenuA',
@@ -21,21 +9,15 @@ window.addEventListener('load', function() {
         },
         
     	viewMenuB: function(e){
-        $JSView.dataView({
-            'title': 'Templates'
-           },e)
+        $JSView.dataView({'title': 'Templates'},e)
     	},
     
     	viewMenuC: function(e){
-        $JSView.dataView({
-            'title': 'Examples initLoadMore'
-        },e)
+        $JSView.dataView({'title': 'Examples initLoadMore'},e)
 	},
     
     	viewMenuD: function(e){
-        $JSView.dataView({
-            'title': 'Examples initReload'
-        },e)
+        $JSView.dataView({'title': 'Examples initReload'},e)
     	}
     });
     
