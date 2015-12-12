@@ -36,7 +36,7 @@ window.addEventListener('load', function() {
         $JSView.dataView({
             'title': 'Examples initReload'
         },e)
-    }
+    	}
     });
     
     
