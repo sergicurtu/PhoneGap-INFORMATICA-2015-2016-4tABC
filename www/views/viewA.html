@@ -5,10 +5,16 @@
 </jsv-header>
 
 
+<jsv-menu class="bgGrey cYellow">
+    <jsv-option onclick="$JSView.actionMenu('viewMenuA')">Welcome</jsv-option>
+    <jsv-option onclick="$JSView.actionMenu('viewMenuB')">Templates</jsv-option>
+    <jsv-option onclick="$JSView.actionMenu('viewMenuC')">initLoadMore</jsv-option>
+    <jsv-option onclick="$JSView.actionMenu('viewMenuD')">initReload</jsv-option>
+</jsv-menu>
+
+
 <jsv-content>
 
-	<button onClick="$JSView.openMenuModal('menu')" class="bgYellow btn-centrat" >Menú</button>
-	
 	<div class="container">
 	
 		<!-- <h1 class="paddingFull10">Content View A</h1> -->
@@ -42,16 +48,3 @@
 			
 </jsv-content>
 
-<jsv-modal-menu id="menu">
-	<jsv-list>
-		<ul>
-				<li class="bgYellow" onClick="$JSView.goToView('viewB')">Diumenge (anada)</li>
-				<li class="bgYellow" onClick="$JSView.goToView('viewC')">Dilluns</li>
-				<li class="bgYellow" onClick="$JSView.goToView('viewD')">Dimarts</li>
-				<li class="bgYellow" onClick="$JSView.goToView('viewE')">Dimecres</li>
-				<li class="bgYellow" onClick="$JSView.goToView('viewF')">Dijous</li>
-				<li class="bgYellow" onClick="$JSView.goToView('viewG')">Divendres (tornada)</li>
-				<li class="bgYellow" onclick="$JSView.closeMenuModal('menu')">Tancar</li>
-		</ul>
-	</jsv-list>
-</jsv-modal-menu>
