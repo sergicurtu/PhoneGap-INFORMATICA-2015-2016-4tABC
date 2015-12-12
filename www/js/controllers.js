@@ -4,10 +4,21 @@
 
 $JSView.controller = {
 	
+	/* view  menus */
 	viewMenuA: function(e){
 		$JSView.dataView({'title': 'Welcome'},e)
-	 },	
+	},
+	viewMenuB: function(e){
+        	$JSView.dataView({'title': 'Templates'},e)
+    	},
+    	viewMenuC: function(e){
+    		$JSView.dataView({'title': 'Examples initLoadMore'},e)
+    	},
+    	viewMenuD: function(e){
+    		$JSView.dataView({'title': 'Examples initReload'},e)
+    	},	
 	
+	/* view pàgines */
     	viewA: function(e){
 		$JSView.dataView({},e)
 	},
