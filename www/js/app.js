@@ -1,10 +1,52 @@
 window.addEventListener('load', function() {
+    
+     $JSView.declareMenu({
+        /*
+        menu: {
+            url: '/menu',
+            template: 'views/menuLeft.html',
+            controller: 'menu'
+        },
+        */
+        menu: {
+            url: '/menu',
+            template: 'views/menuBottom.html',
+            controller: 'menu'
+        },
+        
+        viewMenuA: {
+            url: '/viewMenuA',
+            template: 'views/viewMenuA.html',
+            controller: 'viewMenuA'
+        },
+        
+    	viewMenuB: function(e){
+        $JSView.dataView({
+            'title': 'Templates'
+           },e)
+    	},
+    
+    	viewMenuC: function(e){
+        $JSView.dataView({
+            'title': 'Examples initLoadMore'
+        },e)
+	},
+    
+    	viewMenuD: function(e){
+        $JSView.dataView({
+            'title': 'Examples initReload'
+        },e)
+    }
+    });
+    
+    
+    
     /*	
 			Declare views
 	
 			Aquí podem afegir diferents pàgines html , indicar on estan i el nom del controller ( mirar controller.js )
 	
-	*/
+    */
     $JSView.declareView({ 
         viewA: {
             url: '/viewA',
