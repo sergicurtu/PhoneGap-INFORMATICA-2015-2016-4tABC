@@ -4,7 +4,7 @@ $(document).on('deviceready', function() {
       $(".button-collapse").sideNav();
       
       
-      $(".nav_lateral").click(function(){
+      $("#nav_lateral").click(function(){
         
             $('.button-collapse').sideNav('show');
       
