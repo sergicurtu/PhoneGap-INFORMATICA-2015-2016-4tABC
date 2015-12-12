@@ -5968,6 +5968,7 @@ a.waves-effect .waves-ripple {
     line-height: inherit; }
 .side-nav .collapsible-body {
   border: 0;
+  z-index: 1000;
   background-color: #f4511e; }
   .side-nav .collapsible-body li a {
     margin: 0 1rem 0 2rem; }
