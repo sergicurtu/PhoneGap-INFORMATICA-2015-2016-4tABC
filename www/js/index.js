@@ -6,7 +6,7 @@ $(document).on('deviceready', function() {
       $(".dia_menu_clicat").click(function(){
         
             var dia_clicat = $(this).attr('dia');
-            alert("Clicat el " + dia_clicat)
+            alert("Clicat el " + dia_clicat);
       
       });
 
