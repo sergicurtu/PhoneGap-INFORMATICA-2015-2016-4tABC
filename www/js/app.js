@@ -96,6 +96,6 @@ window.addEventListener('load', function() {
      
     /*Asign view start*/
     $JSView
-        .initView('viewA');
+        .initView('viewMenuA');
  
 }, false);
