@@ -19,25 +19,25 @@ $JSView.controller = {
     	},	
 	
 	/* view pàgines */
-    	viewA: function(e){
+    	inici: function(e){
 		$JSView.dataView({},e)
 	},
-    	viewB: function(e){
+    	dimenge: function(e){
 		$JSView.dataView({},e)	
 	},
-    	viewC: function(e){
+    	dilluns: function(e){
 		$JSView.dataView({},e)
 	},
-    	viewD: function(e){
+    	dimarts: function(e){
 		$JSView.dataView({},e)
 	},
-    	viewE: function(e){
+    	dimecres: function(e){
 		$JSView.dataView({},e)
 	},
-    	viewF: function(e){
+    	dijous: function(e){
 		$JSView.dataView({},e)
 	},
-    	viewG: function(e){
+    	divendres: function(e){
 		$JSView.dataView({},e)
 	},
 	
