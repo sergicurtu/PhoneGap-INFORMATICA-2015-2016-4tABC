@@ -42,7 +42,7 @@ $JSView.controller = {
 	},
 	
 	
-    	modalA: function(e){
+    	modal_info_aeroport: function(e){
 		$JSView.dataView({},e)	
 	}
 	
