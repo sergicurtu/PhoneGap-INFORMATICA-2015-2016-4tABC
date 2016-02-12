@@ -1,1 +1,34 @@
+<jsv-header>
+    <button-header-left onclick="$JSView.closeModal('modal_info_narvona')">TANCAR</button-header-left>
+    Narvona
+    <button-header-right"></button-header-right>
+</jsv-header>
 
+<jsv-content>
+   
+      <h1 class="paddingFull10">Narvona (Roma)</h1>
+	
+	    <img alt="Embedded Image" width="300" height="200" 
+        src=""
+      />
+	<p>
+	...
+	</p>
+	
+	
+	<p>	    
+	...
+	</p>
+	
+	
+	<p>
+  ...
+	</p>
+
+	<p>
+  ...
+	</p>
+	    
+	   
+	    
+</jsv-content>
