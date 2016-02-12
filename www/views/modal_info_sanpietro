@@ -1,1 +1,35 @@
+<jsv-header>
+    <button-header-left onclick="$JSView.closeModal('modal_info_sanpietro')">TANCAR</button-header-left>
+    Narvona
+    <button-header-right"></button-header-right>
+</jsv-header>
+
+<jsv-content>
+   
+      <h1 class="paddingFull10">San Pietro (Roma)</h1>
+	
+	    <img alt="Embedded Image" width="300" height="200" 
+        src=""
+      />
+	<p>
+	...
+	</p>
+	
+	
+	<p>	    
+	...
+	</p>
+	
+	
+	<p>
+  ...
+	</p>
+
+	<p>
+  ...
+	</p>
+	    
+	   
+	    
+</jsv-content>
 
