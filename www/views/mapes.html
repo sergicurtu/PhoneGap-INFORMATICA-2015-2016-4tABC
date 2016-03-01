@@ -1,0 +1,35 @@
+<jsv-header>
+    <button-header-left onclick="$JSView.closeModal('mapa_florencia')">TANCAR</button-header-left>
+     Mapa Florència
+    <button-header-right"></button-header-right>
+</jsv-header>
+
+<jsv-content>
+
+	<jsv-item class="item">	
+           <h3>Roma</h3>
+           <div onclick="$JSView.openImage(this, 'popupimage')" style="background-image: url('../img/roma_map.jpg')" class="photo"></div>
+	   <p>Clica per veure el mapa de Roma</p>
+	</jsv-item>
+	
+	<jsv-item class="item">	
+           <h3>Florència</h3>
+           <div onclick="$JSView.openImage(this, 'popupimage')" style="background-image: url('../img/florencia_map.jpg')" class="photo"></div>
+	   <p>Clica per veure el mapa de Florència</p>
+	</jsv-item>
+	
+	<jsv-item class="item">	
+           <h3>Venècia</h3>
+           <div onclick="$JSView.openImage(this, 'popupimage')" style="background-image: url('../img/venecia_map.jpg')" class="photo"></div>
+	   <p>Clica per veure el mapa de Venècia</p>
+	</jsv-item>	
+	
+	
+</jsv-content>
+
+<jsv-image-popup id="popupimage">
+    <jsv-header>
+        <button-header-left></button-header-left>
+        <button-header-right onclick="$JSView.closeImage('popupimage')">Tancar</button-header-right>
+    </jsv-header> 
+</jsv-image-popup>
