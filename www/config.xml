@@ -82,13 +82,17 @@
 	
 	<!-- Android splash  ================================================================== -->
         <!--
-	<gap:splash src="res/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 : 320x426 -->
+	<gap:splash src="res/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> 
+	--><!-- 200x320 : 320x426 -->
 	<!--
-	<gap:splash src="res/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 : 320x470 -->
+	<gap:splash src="res/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> 
+	--><!-- 320x480 : 320x470 -->
 	<!--
-	<gap:splash src="res/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 : 480x640 -->
+	<gap:splash src="res/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> 
+	--><!-- 480x800 : 480x640 -->
 	<!--
-	<gap:splash src="res/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 : 720x960 -->
+	<gap:splash src="res/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> 
+	--><!-- 720x1280 : 720x960 -->
         
 	
 	<!-- iOS 7 y 6 ====================================================================== -->
