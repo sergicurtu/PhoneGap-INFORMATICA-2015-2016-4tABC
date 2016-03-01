@@ -23,4 +23,7 @@ Cada dia serà una pàgina (viewA , viewB , .... )
 
 Cada activitat serà un modal ( modalB_1, modalB_2 , ... )
 
+--> Git : https://github.com/CeroyUno/JavaScriptView
+--> Web : http://www.javascriptview.com/
+
 
