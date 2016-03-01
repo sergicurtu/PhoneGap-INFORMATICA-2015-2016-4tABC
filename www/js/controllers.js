@@ -44,6 +44,25 @@ $JSView.controller = {
 	
     	modal_info_aeroport: function(e){
 		$JSView.dataView({},e)	
+	},
+	modal_info_coliseo: function(e){
+		$JSView.dataView({},e)	
+	},
+    	modal_info_narvona: function(e){
+		$JSView.dataView({},e)	
+	},
+    	modal_info_sanpietro: function(e){
+		$JSView.dataView({},e)	
+	},
+    	
+	mapa_roma: function(e){
+		$JSView.dataView({},e)	
+	},
+    	mapa_florencia: function(e){
+		$JSView.dataView({},e)	
+	},
+    	mapa_venecia: function(e){
+		$JSView.dataView({},e)	
 	}
 	
 	
