@@ -89,20 +89,10 @@ window.addEventListener('load', function() {
             template: 'views/modal_info_sanpietro.html',
             controller: 'modal_info_sanpietro'
         },
-        mapa_roma: {
-            url: '/mapa_roma',
-            template: 'views/mapa_roma.html',
-            controller: 'mapa_roma'
-        },
-        mapa_florencia: {
-            url: '/mapa_florencia',
-            template: 'views/mapa_florencia.html',
-            controller: 'mapa_florencia'
-        },
-        mapa_venecia: {
-            url: '/mapa_venecia',
-            template: 'views/mapa_venecia.html',
-            controller: 'mapa_venecia'
+        mapes: {
+            url: '/mapes',
+            template: 'views/mapes.html',
+            controller: 'mapes'
         }
     });
      
