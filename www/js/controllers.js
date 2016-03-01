@@ -41,7 +41,7 @@ $JSView.controller = {
 		$JSView.dataView({},e)
 	},
 	
-	
+	/* MODALS ROMA DIA 1 */
     	modal_info_aeroport: function(e){
 		$JSView.dataView({},e)	
 	},
@@ -55,6 +55,7 @@ $JSView.controller = {
 		$JSView.dataView({},e)	
 	},
     	
+    	/* MODALS MAPES */
 	mapa_roma: function(e){
 		$JSView.dataView({},e)	
 	},
