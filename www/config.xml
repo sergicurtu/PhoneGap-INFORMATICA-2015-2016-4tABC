@@ -3,8 +3,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "cat.numancia.roma_2016"
-        versionCode = "26" 
-        version     = "1.0.26" >
+        versionCode = "27" 
+        version     = "1.0.27" >
 	
 	<!-- versionCode is optional and Android only -->
 
@@ -72,6 +72,21 @@
 	
 	<icon src="icon.png" /> <!-- Icono por defecto, debe estar en la raiz -->
 	<gap:splash src="splash.png" /> <!--Splash por defecto, debe estar en la raíz -->
+
+	<!-- Android icons  ================================================================== -->
+	
+	<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" />	<!-- 36x36 -->
+	<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48x48 -->
+	<icon src="res/icon/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72x72 -->
+	<icon src="res/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96x96 -->
+	
+	<!-- Android splash  ================================================================== -->
+
+	<gap:splash src="res/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 : 320x426 -->
+	<gap:splash src="res/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 : 320x470 -->
+	<gap:splash src="res/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 : 480x640 -->
+	<gap:splash src="res/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 : 720x960 -->
+
 	
 	<!-- iOS 7 y 6 ====================================================================== -->
 	<!-- Settings Icon -->
@@ -123,20 +138,6 @@
 	<gap:splash src="default-portrait@2x.png" gap:platform="ios" width="1536" height="2048" />
 	<gap:splash src="default-landscape@2x.png" gap:platform="ios" width="2048" height="1536" />
 	 -->
-	
-	<!-- Android icons  ================================================================== -->
-	
-	<icon src="res/icon/android/ldpi.png" gap:platform="android" gap:density="ldpi" />	<!-- 36x36 -->
-	<icon src="res/icon/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 48x48 -->
-	<icon src="res/icon/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 72x72 -->
-	<icon src="res/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 96x96 -->
-	
-	<!-- Android splash  ================================================================== -->
-
-	<gap:splash src="res/splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" /> <!-- 200x320 : 320x426 -->
-	<gap:splash src="res/splash/android/mdpi.png" gap:platform="android" gap:density="mdpi" /> <!-- 320x480 : 320x470 -->
-	<gap:splash src="res/splash/android/hdpi.png" gap:platform="android" gap:density="hdpi" /> <!-- 480x800 : 480x640 -->
-	<gap:splash src="res/splash/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" /> <!-- 720x1280 : 720x960 -->
 
 	<!-- Windows Phone icons  ================================================================== -->
 
