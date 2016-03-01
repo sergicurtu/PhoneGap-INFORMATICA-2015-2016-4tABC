@@ -1,27 +1,4 @@
 window.addEventListener('load', function() {
-
-     $JSView.declareMenu({
-        
-        viewMenuA: {
-            url: '/viewMenuA',
-            template: 'views/viewMenuA.html',
-            controller: 'viewMenuA'
-        },
-        
-    	viewMenuB: function(e){
-        $JSView.dataView({'title': 'Templates'},e)
-    	},
-    
-    	viewMenuC: function(e){
-        $JSView.dataView({'title': 'Examples initLoadMore'},e)
-	},
-    
-    	viewMenuD: function(e){
-        $JSView.dataView({'title': 'Examples initReload'},e)
-    	}
-    });
-    
-    
     
     /*	
 			Declare views
