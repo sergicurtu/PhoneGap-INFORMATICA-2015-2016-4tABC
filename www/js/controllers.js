@@ -56,13 +56,7 @@ $JSView.controller = {
 	},
     	
     	/* MODALS MAPES */
-	mapa_roma: function(e){
-		$JSView.dataView({},e)	
-	},
-    	mapa_florencia: function(e){
-		$JSView.dataView({},e)	
-	},
-    	mapa_venecia: function(e){
+	mapes: function(e){
 		$JSView.dataView({},e)	
 	}
 	
