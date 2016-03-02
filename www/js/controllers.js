@@ -41,7 +41,7 @@ $JSView.controller = {
 		$JSView.dataView({},e)	
 	},
     	
-    	/* MODALS MAPES */
+    	/* MAPES */
 	mapes: function(e){
 		$JSView.dataView({},e)	
 	}
