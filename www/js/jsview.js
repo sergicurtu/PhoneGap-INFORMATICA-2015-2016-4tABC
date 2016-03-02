@@ -190,6 +190,19 @@ $JSView = {
             JSVActualView = window.history.state
         },0);
     },
+    //OPEN CLOSE IMAGE POPUP
+    openImage: function(image,e){
+        var objElement = $v.select('jsv-image-popup#' + e);
+		objElement.style.backgroundImage = image.style.backgroundImage;
+        objElement.classList.add('show');
+    },
+    closeImage: function(e){
+        var objElement = $v.select('jsv-image-popup#' + e);
+        objElement.classList.remove('show');
+        setTimeout(function(){
+            objElement.style.backgroundImage = '';
+        },250);
+    },
     back: function(e){
         //Return to previous url       
         window.history.back();
