@@ -41,6 +41,11 @@ window.addEventListener('load', function() {
             url: '/divendres',
             template: 'views/divendres.html',
             controller: 'divendres'
+        },
+        mapes: {
+            url: '/mapes',
+            template: 'views/mapes.html',
+            controller: 'mapes'
         }
     });
      
@@ -65,11 +70,6 @@ window.addEventListener('load', function() {
             url: '/modal_info_sanpietro',
             template: 'views/modal_info_sanpietro.html',
             controller: 'modal_info_sanpietro'
-        },
-        mapes: {
-            url: '/mapes',
-            template: 'views/mapes.html',
-            controller: 'mapes'
         }
     });
      
