@@ -75,6 +75,6 @@ window.addEventListener('load', function() {
      
     /*Asign view start*/
     $JSView
-        .initView('inici');
+        .initView('mapes');
  
 }, false);
